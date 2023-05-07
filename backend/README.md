@@ -1,24 +1,57 @@
-# README
+## Initial settings
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Add the following gems to `developer` section:
 
-Things you may want to cover:
+```
+  gem "rbs"
+  gem "rbs_rails"
+  gem "ruby-lsp"
+  gem "solargraph"
+  gem "solargraph-rails"
+  gem "spring"
+  gem "spring-watcher-listen"
+  gem "steep"
+```
 
-* Ruby version
+### RBS and Steep
 
-* System dependencies
+Initialize RBS:
 
-* Configuration
+```
+bin/rails g rbs_rails:install
+bundle exec rbs collection init
+bundle exec rbs collection install
+bundle exec rbs collection update
+```
 
-* Database creation
+Initialize Steep:
 
-* Database initialization
+```
+steep init
+```
 
-* How to run the test suite
+### Solargraph
 
-* Services (job queues, cache servers, search engines, etc.)
+Initialize solargraph:
 
-* Deployment instructions
+- Add solargraph extension to VSCode. https://marketplace.visualstudio.com/items?itemName=castwide.solargraph
 
-* ...
+```
+yard gems
+```
+
+Add configuration:
+
+```
+solargraph config
+```
+
+Add to the config file:
+
+```
+plugins:
+  - solargraph-rails
+```
+
+### Rubocop
+

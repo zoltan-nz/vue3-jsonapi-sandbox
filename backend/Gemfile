@@ -42,7 +42,17 @@ group :development, :test do
 end
 
 group :development do
-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
+  gem "dockerfile-rails"
+
+  gem "rbs"
+  gem "rbs_rails"
+  gem "ruby-lsp"
+  gem "solargraph"
+  gem "solargraph-rails"
+  gem "spring"
+  gem "spring-watcher-listen"
+  gem "steep"
 end
+
+
 
