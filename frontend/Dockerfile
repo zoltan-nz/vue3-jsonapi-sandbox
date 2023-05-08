@@ -25,3 +25,4 @@ FROM pierrezemb/gostatic
 
 # Copy static files
 COPY --from=build /app/dist /srv/http/
+ENTRYPOINT ["/goStatic", "-fallback", "index.html"]
