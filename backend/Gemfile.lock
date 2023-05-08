@@ -221,7 +221,7 @@ GEM
     solargraph-rails (1.1.0)
       activesupport
       solargraph
-    sorbet-runtime (0.5.10803)
+    sorbet-runtime (0.5.10804)
     spring (4.1.1)
     spring-watcher-listen (2.1.0)
       listen (>= 2.7, < 4.0)

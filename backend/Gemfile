@@ -44,8 +44,6 @@ end
 group :development do
   gem "dockerfile-rails"
 
-  gem "rbs"
-  gem "rbs_rails"
   gem "ruby-lsp"
   gem "solargraph"
   gem "solargraph-rails"
@@ -54,5 +52,5 @@ group :development do
   gem "steep"
 end
 
-
-
+gem "rbs", require: false
+gem "rbs_rails", require: false
