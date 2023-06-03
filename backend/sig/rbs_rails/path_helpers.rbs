@@ -3,6 +3,8 @@ interface _RbsRailsPathHelpers
   def rails_info_properties_path: (*untyped) -> String
   def rails_info_routes_path: (*untyped) -> String
   def rails_info_path: (*untyped) -> String
+  def products_path: (*untyped) -> String
+  def product_path: (*untyped) -> String
   def root_path: (*untyped) -> String
   def rails_postmark_inbound_emails_path: (*untyped) -> String
   def rails_relay_inbound_emails_path: (*untyped) -> String
@@ -31,6 +33,8 @@ interface _RbsRailsPathHelpers
   def rails_info_properties_url: (*untyped) -> String
   def rails_info_routes_url: (*untyped) -> String
   def rails_info_url: (*untyped) -> String
+  def products_url: (*untyped) -> String
+  def product_url: (*untyped) -> String
   def root_url: (*untyped) -> String
   def rails_postmark_inbound_emails_url: (*untyped) -> String
   def rails_relay_inbound_emails_url: (*untyped) -> String

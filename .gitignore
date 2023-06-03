@@ -1,0 +1,10 @@
+.ruby-lsp
+.gem_rbs_collection
+.idea
+.ruby-lsp
+.yardoc
+log
+sig
+tmp
+doc
+
